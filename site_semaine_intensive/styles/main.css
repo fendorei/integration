@@ -1,3 +1,11 @@
+content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+
 body{
     min-width: 320px;
     font-size: 17px;
@@ -23,13 +31,6 @@ h1{
 }
 
 h2{
-    color: transparent;
-    background-image: linear-gradient(to left, #777dff 0px, #f154ff 200px, #f0357c 400px),linear-gradient(to right, #777dff 0px, #497ce2 200px, #37bdde 400px);
-    background-size: 51% 100%;
-    background-position: top left, top right;
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 54px;
     line-height: 1.48164;
     font-weight: 700;
@@ -44,10 +45,9 @@ p{
     font-weight: 400;
     letter-spacing: .01em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: #111;
 }
 
-nav{
+.navbar{
     top: 0;
     left: 0;
     width: 100%;
@@ -58,15 +58,15 @@ nav{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     display: flex;
     flex-direction: row;
+    background-color: #000;
 }
 
-nav img{
+.navbar img{
     height: 50px;
     width: 40px;
 }
 
 .presentation{
-    background-color: #fff;
     font-size: 24px;
     line-height: 1;
     font-weight: 600;
@@ -79,7 +79,7 @@ nav img{
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.01em;
-    color: gris clair / gris très foncé
+    color: #888;
 }
 
 .button{
@@ -94,4 +94,25 @@ nav img{
     border-style: solid;
     border-radius: 4px;
     cursor-hover:  #42a1ec;
+    float: right;
+}
+
+.homepod{
+    background-color: #000;
+    color: #fff;
+    height: 324px;
+}
+
+#speaker{
+    float: right;
+}
+
+.innovation{
+    background-color: #44484b;
+    color: #fff;
+    height: 611px;
+}
+
+#top{
+    float: left;
 }
