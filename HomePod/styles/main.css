@@ -9,10 +9,6 @@ body{
     color: #FFFFFF;
 }
 
-.clearBoth{
-    clear: both;
-}
-
 /*Navigaton*/
 
 header nav a{
@@ -29,6 +25,15 @@ header nav{
     position: fixed;
     z-index: 4;
 }
+
+.HomePod_title{
+    color:#FFFFFF;
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+    font-size: 2em;
+    text-transform: bold;
+  }
 
 /*Header*/
 
