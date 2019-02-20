@@ -11,29 +11,30 @@ body{
 
 /*Navigaton*/
 
-header nav{
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    width: 100vw;
-    background-color: #00000050;
-    position: fixed;
-    position: relative;
-}
-
 header nav a{
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.HomePod_title{
-  color:#FFFFFF;
-  position: absolute;
-  left: 45%;
-  bottom: 20px;
-  font-size: 2em;
-  text-transform: bold;
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+    background-color: #000000A6;
+    position: fixed;
+    z-index: 4;
 }
+
+.HomePod_title{
+    color:#FFFFFF;
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+    font-size: 2em;
+    text-transform: bold;
+}
+
 
 /*Header*/
 
@@ -82,6 +83,7 @@ header nav #nav_logo ul li a{
 /*fin nav*/
 
 /* Presentation HomePod for Techs */
+
 .container_fond_pour_homepod{
   background-color:#333;
   width:100vw;
@@ -96,7 +98,7 @@ header nav #nav_logo ul li a{
 }
 
 .presentation_homepod_tech img{
-    margin-top: 5vh;
+    margin-top: 100px;;
     height: 80vh;
 }
 
@@ -165,13 +167,47 @@ main .technics_description li.isOpen h3::after{
 
 .homePod_environnement div#title_environment h2{
     color: #548C8C;
+    padding-top: 2%;
 }
 
+.homePod_environnement #homePod_environnement_firstp{
+    margin-left: 3%;
+    width: 48%;
+}
+.homePod_environnement a{
+    margin-left: 5%;
+    text-decoration: none;
+    color: #0070C9;
+}
+
+.container_envrionment{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.container_envrionment .info_homepod_environment{
+    margin-left: 3%;
+}
+
+.container_envrionment .info_homepod_environment ul{
+    list-style: none;
+}
+
+.container_envrionment .info_homepod_environment h2{
+    font-size: 1em;
+}
+
+.container_envrionment .info_homepod_environment2{
+    margin-right: 3%;
+    margin-left: 3%;
+}
 
 /*Footer*/
 
 footer{
     background-color: #44484B33;
+    margin-top: 50px;
 }
 
 footer .icoFooter{
