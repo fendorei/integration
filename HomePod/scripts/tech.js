@@ -1,7 +1,7 @@
-const techs = document.querySelectorAll('.technics_description_li')
+const li = document.querySelectorAll('.technics_description_li')
 
-for(let i=0; i<techs.length; i++){
-    techs[i].addEventListener(
+for(let i=0; i<li.length; i++){
+    li[i].addEventListener(
         'click',
         function(){
             if (this.classList.contains('isOpen')){

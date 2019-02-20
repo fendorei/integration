@@ -134,11 +134,11 @@ main .technics_description{
     list-style: none;
 }
 
-main .technics_description p,ul.ul_hidden,h4,a.link_hidden{
+main .technics_description p.description{
     display: none;
 }
 
-h3{
+main h3.technics{
     font-size: 1.8em;
 }
 
@@ -150,6 +150,22 @@ main .technics_description li.isOpen h3::after{
     transform: rotate(90deg);
 }
 
+
+/*Environment engagement*/
+
+.homePod_environnement{
+    background-color: #F6F6EF94;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.homePod_environnement div#title_environment{
+    text-align: center;
+}
+
+.homePod_environnement div#title_environment h2{
+    color: #548C8C;
+}
 
 
 /*Footer*/
