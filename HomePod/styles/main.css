@@ -71,7 +71,7 @@ header nav #nav_logo ul li{
 }
 
 header nav #nav_logo ul li a{
-    color: #FFFFFF99;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 /*MAIN HomePod Presentation*/
@@ -249,20 +249,26 @@ footer{
 footer .icoFooter{
     display: flex;
     justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 footer .icoFooter img{
     width: 100px;
     height: 100px;
-    margin-top: 50px;
-    margin: 50px;
+    margin: 54px;
 }
 
 footer .contentTitleFooter{
     display: flex;
     justify-content: space-around;
-    margin-left: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: -20px;
+}
+
+footer .contentTitleFooter #delivery_appleStore{
+    margin-left: 10px;
 }
 
 footer .contentFooter{
@@ -270,4 +276,30 @@ footer .contentFooter{
     justify-content: space-around;
     margin-left: 10vw;
     margin-right: 10vw;
+    text-align: center;
+}
+
+/*Footer links*/
+
+footer .about{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .about ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+footer .about a{
+    color: #00000099;
+    text-decoration: none;
+}
+
+footer .about a:hover{
+    text-decoration: underline;
 }
