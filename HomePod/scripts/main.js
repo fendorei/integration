@@ -1,6 +1,6 @@
 const slider = document.querySelector('.sliderContainer')
-const sliderImages = document.querySelectorAll('.sliderContainer img')
-const step = 450
+const sliderImages = document.querySelectorAll('.contentSlider img')
+const step = -960
 let pos = 0
 let action
 
@@ -15,7 +15,7 @@ slider.addEventListener('mouseover', stopSlider)
 slider.addEventListener('mouseout', playSlider)
 
 function setPosition(pos) {
-    slider.style.left = -pos * step + 'px'
+    slider.style.left = pos * step + 'px'
 }
 
 function stopSlider() {
@@ -28,7 +28,7 @@ function playSlider() {
             pos = (pos + 1) % sliderImages.length
             setPosition(pos)
         },
-        3000
+        5000
     )
 }
 
