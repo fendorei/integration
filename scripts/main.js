@@ -1,6 +1,6 @@
-const slider = document.querySelector('.sliderConatiner')
+const slider = document.querySelector('.sliderContainer')
 const sliderImages = document.querySelectorAll('.sliderContainer img')
-const step = 960
+const step = 450
 let pos = 0
 let action
 
