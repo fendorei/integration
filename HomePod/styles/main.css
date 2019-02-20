@@ -4,6 +4,11 @@ body{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+.current{
+    border-bottom: 1px solid white;
+    color: #FFFFFF;
+}
+
 /*Navigaton*/
 
 header nav a{
@@ -18,6 +23,7 @@ header nav{
     width: 100vw;
     background-color: #00000050;
     position: fixed;
+    z-index: 4;
 }
 
 /*Header*/
@@ -62,11 +68,6 @@ header nav #nav_logo ul li{
 
 header nav #nav_logo ul li a{
     color: #FFFFFF99;
-}
-
-.current{
-    border-bottom: 1px solid white;
-    color: white;
 }
 
 /*MAIN HomePod Presentation*/
@@ -168,4 +169,29 @@ main .homePod_citation p{
 .sliderContainer img{
     margin: 0 10px;
     height: 80vh;
+}
+
+/*Third Part*/
+
+main .thirdContent{
+    background-color: #44484B;
+    height: 110vh; 
+}
+
+main .thirdContent div{
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+main .thirdContent img{
+    height: 100vh;
+    margin-top: 30px;
+} 
+
+main .thirdContent h2{
+    color: white;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    font-size: 2.2em;
 }
