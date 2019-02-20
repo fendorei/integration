@@ -9,6 +9,10 @@ body{
     color: #FFFFFF;
 }
 
+.clearBoth{
+    clear: both;
+}
+
 /*Navigaton*/
 
 header nav a{
@@ -175,10 +179,16 @@ main .homePod_citation p{
 
 main .thirdContent{
     background-color: #44484B;
-    height: 110vh; 
 }
 
-main .thirdContent div{
+main .thirdContent .backgroundRotate{
+    background-color: #44484B;
+    height: 110vh;
+    transform : rotate(14deg);
+    z-index: -10;
+}
+
+main .thirdContent div.homePodBlackPresentation{
     margin-left: 10vw;
     display: flex;
     align-items: center;
@@ -194,4 +204,70 @@ main .thirdContent h2{
     margin-left: 5vw;
     margin-right: 10vw;
     font-size: 2.2em;
+}
+
+/*4th part*/
+
+main .fourthContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .fourthContent h1{
+    font-size: 4em;
+}
+
+main .fourthContent p{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+main .fourthContent img{
+    width: 40vw;
+    margin-top: -20px;
+}
+
+main .fourthContent h2{
+    color: #A8278C;
+    font-size: 3em;
+}
+
+main .fourthContent h3{
+    font-size: 1.5em;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #44484B33;
+}
+
+footer .icoFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .icoFooter img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin: 50px;
+}
+
+footer .contentTitleFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+footer .contentFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
