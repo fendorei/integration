@@ -81,26 +81,149 @@ header nav #nav_logo ul li a{
 
 /*fin nav*/
 
-/* gros plan sur homepod */
+/* Presentation HomePod for Techs */
 .container_fond_pour_homepod{
   background-color:#333;
   width:100vw;
-  height:720px;
+  height:1000px;
 }
-.homepod_black{
-  width:500px;
-  height:600px;
-  float:left;
-  margin-top:95px;
-  padding-left:40px;
-}
-.homepod_white{
-  width:500px;
-  height:600px;
-  float:right;
-  margin-top:95px;
-  padding-right:40px
-}
-.container_dimensions{
 
+.presentation_homepod_tech{
+    background-color: #44484B;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.presentation_homepod_tech img{
+    margin-top: 5vh;
+    height: 80vh;
+}
+
+.presentation_homepod_tech img.homepod_black{
+    margin-left: -7vw;
+}
+
+.presentation_homepod_tech img.homepod_white{
+    margin-right: -7vw;
+}
+
+/*Description HomePod*/
+
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+main .technics_description li{
+    position: relative;
+    margin-top: 50px;
+}
+
+h3.technics::after{
+    content: ">";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    transition: all linear 0.25s;
+    transform: rotate(0deg);
+}
+
+main .technics_description{
+    list-style: none;
+}
+
+main .technics_description p,ul.ul_hidden,h4,a.link_hidden{
+    display: none;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+main .technics_description li.isOpen p.description{
+    display: block;
+}
+
+main .technics_description li.isOpen h3::after{
+    transform: rotate(90deg);
+}
+
+
+
+/*Footer*/
+
+footer{
+    background-color: #44484B33;
+}
+
+footer .icoFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+footer .icoFooter img{
+    width: 100px;
+    height: 100px;
+    margin: 44px;
+}
+
+footer .contentTitleFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: -20px;
+}
+
+footer .contentTitleFooter #delivery_appleStore{
+    margin-left: 40px;
+}
+
+footer .contentFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+footer .moreAbout{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+footer .moreAbout a{
+    color: #4295EF;
+    text-decoration: none;
+}
+
+/*Footer links*/
+
+footer .about{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .about ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+footer .about a{
+    color: #00000099;
+    text-decoration: none;
+}
+
+footer .about a:hover{
+    text-decoration: underline;
 }

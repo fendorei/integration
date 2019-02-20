@@ -28,7 +28,8 @@ function playSlider() {
             pos = (pos + 1) % sliderImages.length
             setPosition(pos)
         },
-        5000
+        3000
     )
 }
+
 

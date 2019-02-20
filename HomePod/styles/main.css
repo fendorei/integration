@@ -33,7 +33,7 @@ header nav{
     bottom: 20px;
     font-size: 2em;
     text-transform: bold;
-  }
+}
 
 /*Header*/
 
@@ -178,10 +178,21 @@ main .homePod_citation p{
     font-size:1.8em;
 }
 
-.sliderContainer .contentSlider .textSlider p{
+.sliderContainer .contentSlider .textSlider h2.slider_h2_right{
+    font-size:1.8em;
+    text-align: right;
+}
+
+.sliderContainer .contentSlider .textSlider p.slider_p_left{
     font-size: 1em;
     line-height: 1.3em;
-    margin: 10px;
+    text-align: left;
+}
+
+.sliderContainer .contentSlider .textSlider p.slider_p_right{
+    font-size: 1em;
+    line-height: 1.3em;
+    text-align: right;
 }
 
 .sliderContainer .contentSlider img{
@@ -229,8 +240,9 @@ main .video{
 }
 
 main .video img{
-    width: 100vw;
-    height: 110vh;
+    width: 90vw;
+    height: 100vh;
+    margin-top: 50px;
 }
 
 main .video h2{
@@ -335,7 +347,7 @@ footer .contentTitleFooter{
 }
 
 footer .contentTitleFooter #delivery_appleStore{
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 footer .contentFooter{
@@ -382,3 +394,5 @@ footer .about a{
 footer .about a:hover{
     text-decoration: underline;
 }
+
+/*Responsive*/
