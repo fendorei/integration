@@ -206,6 +206,59 @@ main .thirdContent h2{
     font-size: 2.2em;
 }
 
+/*Video*/
+
+main .video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+main .video img{
+    width: 100vw;
+    height: 110vh;
+}
+
+main .video h2{
+    position: absolute;
+    bottom: 200px;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+main .video a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+main .video a:hover{
+    text-decoration: underline;
+    color: #4295EF;
+}
+
+main .video .buttonPlay{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 180px;
+
+}
+
+main .video img#play{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+main .video video{
+    visibility: hidden;
+    height: 0px;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
 /*4th part*/
 
 main .fourthContent{
@@ -256,7 +309,7 @@ footer .icoFooter{
 footer .icoFooter img{
     width: 100px;
     height: 100px;
-    margin: 54px;
+    margin: 44px;
 }
 
 footer .contentTitleFooter{
@@ -277,6 +330,18 @@ footer .contentFooter{
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
+}
+
+footer .moreAbout{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+footer .moreAbout a{
+    color: #4295EF;
+    text-decoration: none;
 }
 
 /*Footer links*/
