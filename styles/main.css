@@ -55,7 +55,7 @@ p{
 
 .navbar img{
     height: 50px;
-    width: 40px;
+    width: 50px;
 }
 
 .navtext{
@@ -137,14 +137,14 @@ button{
 }
 
 .container{
-    width: 450px;
+    width: 890px;
     margin: 0 auto;
 }
 
 .slider{
     margin: 20px 0px;
     width: 100%;
-    height: 520px;
+    height: 890px;
     position: relative;
     overflow: hidden;
 }
@@ -171,4 +171,24 @@ button{
     text-align: center;
     transform: translateZ(0);
     color: #fff;
+}
+
+.title{
+    text-align: center;
+}
+
+.caracs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.pictures img{
+    width: 500px;
+    height: 406px;
 }
