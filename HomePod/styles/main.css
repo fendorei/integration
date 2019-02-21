@@ -285,11 +285,8 @@ main .video a:hover{
 }
 
 main .video .buttonPlay{
-    display: flex;
-    align-items: center;
     position: absolute;
     bottom: 180px;
-
 }
 
 main .video img#play{
