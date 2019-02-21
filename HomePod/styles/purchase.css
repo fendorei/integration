@@ -204,7 +204,7 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 }
 
 .sliderContainer img{
-    width: auto;
+    width: 960px;
     height: 600px;
 }
 
@@ -237,7 +237,6 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 
 .description_homepod h2#technics{
     font-size: 3em;
-    text-decoration: underline;
 }
 
 .technical_aspect{

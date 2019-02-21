@@ -19,7 +19,7 @@ for (let i=0; i<color.length; i++){
 }
 
 const slider = document.querySelector('.sliderContainer')
-const sliderImages = document.querySelectorAll('.slider img')
+const sliderImages = document.querySelectorAll('.sliderContainer  img')
 const previous = document.querySelector('.previous')
 const next = document.querySelector('.next')
 const sliderContainer = document.querySelector('.contentSlider')
@@ -39,6 +39,7 @@ slider.addEventListener('mouseout', playSlider)
 
 function setPosition(pos) {
     slider.style.left = pos * step + 'px'
+
 }
 
 function stopSlider() {
@@ -70,8 +71,6 @@ next.addEventListener(
     'click',
     function(){
         pos++
-        console.log('dgndghd')
-
         if (pos > sliderImages.length-1){
             pos = 0
         }
