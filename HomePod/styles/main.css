@@ -156,12 +156,13 @@ main .homePod_citation p{
 .slider .navigation .previous{
     position: absolute;
     top: 50%;
+    left: 30px
 }
 
 .slider .navigation .next{
     position: absolute;
     top: 50%;
-    right : 10px;
+    right : 30px;
 }
 
 .slider .navigation .next img{
