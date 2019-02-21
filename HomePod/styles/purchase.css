@@ -299,7 +299,7 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 
 .slider_homekit{
     position : relative;
-    width: 960px;
+    width: 100vw;
     height: 600px;
     overflow: hidden;
     padding-top: 50px;
@@ -316,10 +316,11 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
     display: flex;
     transition: ease-in 0.5s all;
     will-change: left;
+    width: 100vw;
 }
 
 .sliderContainer_homekit img{
-    height: 400px;
+    height:400px;
 }
 
 .previousHomeKit{

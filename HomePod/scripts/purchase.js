@@ -82,7 +82,7 @@ const previousHomeKit = document.querySelector('.previousHomeKit')
 const nextHomeKit = document.querySelector('.nextHomeKit')
 const sliderImagesHomeKit = document.querySelectorAll('.sliderContainer_homekit img')
 const sliderContainerHomeKit = document.querySelector('.sliderContainer_homekit')
-let step2 = -400,
+let step2 = -150,
     time2 = 3000,
     pos2 = 0
 
