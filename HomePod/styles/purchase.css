@@ -349,6 +349,7 @@ footer .icoFooter img{
 footer .contentTitleFooter{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: -20px;
