@@ -17,7 +17,8 @@ for (let i=0; i<color.length; i++){
         }
     )
 }
-
+const previous = document.querySelector('.previous')
+const next = document.querySelector('.next')
 const sliderImages = document.querySelectorAll('.sliderContainer img')
 const sliderContainer = document.querySelector('.sliderContainer')
 let step = -960,
@@ -58,5 +59,49 @@ next.addEventListener(
             pos = 0
         }
         sliderContainer.style.left = pos*step + 'px'
+    }
+)
+const previousHomeKit = document.querySelector('.previousHomeKit')
+const nextHomeKit = document.querySelector('.nextHomeKit')
+const sliderImagesHomeKit = document.querySelectorAll('.sliderContainer_homekit img')
+const sliderContainerHomeKit = document.querySelector('.sliderContainer_homekit')
+let step2 = -400,
+    time2 = 3000,
+    pos2 = 0
+
+let slide2 = setInterval(
+    function(){
+        pos2 = (pos2+1)%sliderImagesHomeKit.length
+        sliderContainerHomeKit.style.left = pos*step2+'px'
+    },
+    time2
+)
+
+sliderContainerHomeKit.addEventListener('mouseover', function (){
+    clearInterval(slide2)
+})
+sliderContainerHomeKit.addEventListener('mouseout', function(){
+    setInterval()
+})
+
+previousHomeKit.addEventListener(
+    'click',
+    function(){
+        pos2--
+        if (pos2 < 0){
+            pos2 = sliderImagesHomeKit.length-1
+        }
+        sliderContainerHomeKit.style.left = pos2*stepZ + 'px'
+    }
+)
+
+nextHomeKit.addEventListener(
+    'click',
+    function(){
+        pos++
+        if (pos2 > sliderImagesHomeKit.length-1){
+            pos2 = 0
+        }
+        sliderContainerHomeKit.style.left = pos2*stepZ + 'px'
     }
 )

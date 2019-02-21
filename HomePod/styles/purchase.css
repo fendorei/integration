@@ -160,7 +160,7 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 .slider{
     position : relative;
     width: 960px;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     padding-top: 50px;
     margin: 0 auto;
@@ -174,8 +174,8 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 }
 
 .sliderContainer img{
-    margin: 0 auto;
-    height: 400px;
+    width: auto;
+    height: 600px;
 }
 
 .previous{
@@ -263,6 +263,54 @@ main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
 
 .technical_aspect .right_techs p{
     line-height: 1.4em;
+}
+
+/*Slider HomeKit*/
+
+.slider_homekit{
+    position : relative;
+    width: 960px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.slider_homekit h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.sliderContainer_homekit{
+    position: absolute;
+    display: flex;
+    transition: ease-in 0.5s all;
+    will-change: left;
+}
+
+.sliderContainer_homekit img{
+    height: 400px;
+}
+
+.previousHomeKit{
+    position: absolute;
+    top: 50%;
+    left : 20px;
+    transform: rotate(180deg);
+}
+
+.previousHomeKit img{
+    width: 30px;
+}
+
+.nextHomeKit{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+.nextHomeKit img{
+    width: 30px;
 }
 
 /*Footer*/
