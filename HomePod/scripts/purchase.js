@@ -89,7 +89,7 @@ let step2 = -400,
 let slide2 = setInterval(
     function(){
         pos2 = (pos2+1)%sliderImagesHomeKit.length
-        sliderContainerHomeKit.style.left = pos*step2+'px'
+        sliderContainerHomeKit.style.left = pos2*step2+'px'
     },
     time2
 )
@@ -108,17 +108,17 @@ previousHomeKit.addEventListener(
         if (pos2 < 0){
             pos2 = sliderImagesHomeKit.length-1
         }
-        sliderContainerHomeKit.style.left = pos2*stepZ + 'px'
+        sliderContainerHomeKit.style.left = pos2*step2 + 'px'
     }
 )
 
 nextHomeKit.addEventListener(
     'click',
     function(){
-        pos++
+        pos2++
         if (pos2 > sliderImagesHomeKit.length-1){
             pos2 = 0
         }
-        sliderContainerHomeKit.style.left = pos2*stepZ + 'px'
+        sliderContainerHomeKit.style.left = pos2*step2 + 'px'
     }
 )

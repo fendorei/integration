@@ -366,7 +366,7 @@ main .fourthContent{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100vh;
+    margin-top: 80vh;
 }
 
 main .fourthContent h1{
