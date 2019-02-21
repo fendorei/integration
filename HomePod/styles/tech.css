@@ -139,6 +139,20 @@ main .technics_description p.description{
     display: none;
 }
 
+main .technics_description .p_technics{
+    margin-left: 20vw;
+    
+}
+
+main .technics_description .p_technics p.description{
+    font-size: 1.4em;
+}
+
+main .technics_description .p_technics .title_infos{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
 main h3.technics{
     font-size: 1.8em;
 }
@@ -152,7 +166,8 @@ main .technics_description li.isOpen h3::after{
 }
 
 
-/*Environment engagement*/
+
+/*Environment Engagement*/
 
 .homePod_environnement{
     background-color: #F6F6EF94;
