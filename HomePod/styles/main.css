@@ -132,7 +132,7 @@ main .homePod_citation{
 }
 
 main .homePod_citation img{
-    height: 110vh;
+    width: 60vw;
     margin-left: 10vw;
 }
 
@@ -225,13 +225,6 @@ main .thirdContent{
     background-color: #44484B;
 }
 
-main .thirdContent .backgroundRotate{
-    background-color: #44484B;
-    height: 110vh;
-    transform : rotate(14deg);
-    z-index: -10;
-}
-
 main .thirdContent div.homePodBlackPresentation{
     margin-left: 10vw;
     display: flex;
@@ -241,7 +234,7 @@ main .thirdContent div.homePodBlackPresentation{
 
 
 main .thirdContent img{
-    height: 100vh;
+    width: 50vw;
     margin-top: 30px;
 } 
 
