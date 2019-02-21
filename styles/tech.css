@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.current{
+    border-bottom: 1px solid white;
+    color: #FFFFFF;
+}
+
+/*Navigaton*/
+
+header nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+    background-color: #000000A6;
+    position: fixed;
+    z-index: 4;
+}
+
+.HomePod_title{
+    color:#FFFFFF;
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+    font-size: 2em;
+    text-transform: bold;
+}
+
+
+/*Header*/
+
+header{
+    background-color: #000000;
+}
+
+header a img.logo{
+    width: 30px;
+    height: auto;
+    margin-top: 29px;
+}
+
+header .purchase{
+    background-color: #0070C9;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav #nav_logo{
+    display: flex;
+    margin-left: 10vw;
+}
+
+header nav #nav_logo ul{
+    display: flex;
+    padding-top: 10px;
+    list-style: none;
+}
+
+header nav #nav_logo ul li{
+    margin: 10px;
+    border-bottom: 1px solid #FFFFFF99;
+}
+
+header nav #nav_logo ul li a{
+    color: #FFFFFF99;
+}
+
+/*fin nav*/
+
+/* Presentation HomePod for Techs */
+
+.container_fond_pour_homepod{
+  background-color:#44484B;
+  height: 120vh;
+}
+
+.presentation_homepod_tech{
+    background-color: #44484B;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.presentation_homepod_tech img{
+    margin-top: 100px;
+    height: 120vh;
+}
+
+.presentation_homepod_tech img.homepod_black{
+    margin-left: -20vw;
+}
+
+.presentation_homepod_tech img.homepod_white{
+    margin-right: -20vw;
+}
+
+/*Description HomePod*/
+
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+main .technics_description li{
+    position: relative;
+    margin-top: 50px;
+}
+
+li.isOpen h3.technics{
+    border-bottom: 1px solid #000000;
+}
+
+li.isOpen h3.technics .arrow{
+    transition: all linear 0.25s;
+    transform: rotate(0deg);
+    position: absolute;
+    margin-left: 20px;
+}
+
+main .technics_description{
+    list-style: none;
+}
+
+main .technics_description p.description{
+    display: none;
+}
+
+main .technics_description .p_technics{
+    margin-left: 20vw;
+}
+
+main .technics_description .p_technics p.description{
+    font-size: 1.4em;
+}
+
+main .technics_description .p_technics .title_infos{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+main h3.technics{
+    font-size: 1.8em;
+}
+
+main .technics_description li.isOpen p.description{
+    display: block;
+    line-height: 2em;
+}
+
+main .technics_description li.isOpen h3.technics .arrow{
+    transform: rotate(90deg);
+}
+
+div.description{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*Environment Engagement*/
+
+.homePod_environnement{
+    background-color: #F6F6EF94;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.homePod_environnement div#title_environment{
+    text-align: center;
+}
+
+.homePod_environnement div#title_environment h2{
+    color: #548C8C;
+    padding-top: 2%;
+}
+
+.homePod_environnement div#title_environment img{
+    width: 70px;
+}
+
+.homePod_environnement div#title_environment #homePod_environnement_firstp{
+    width: 50%;
+    margin:0 auto;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+.homePod_environnement div#title_environment a{
+    text-decoration: none;
+    color: #0070C9;
+}
+
+.container_envrionment{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container_envrionment .info_homepod_environment{
+    margin-left: 3%;
+}
+
+.container_envrionment .info_homepod_environment ul{
+    list-style: none;
+}
+
+.container_envrionment .info_homepod_environment h2{
+    font-size: 1em;
+}
+
+.container_envrionment .info_homepod_environment2{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #44484B33;
+    margin-top: 50px;
+}
+
+footer .icoFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+footer .icoFooter img{
+    width: 100px;
+    height: 100px;
+    margin: 44px;
+}
+
+footer .contentTitleFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: -20px;
+}
+
+footer .contentTitleFooter #delivery_appleStore{
+    margin-left: 40px;
+}
+
+footer .contentFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+footer .moreAbout{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+footer .moreAbout a{
+    color: #4295EF;
+    text-decoration: none;
+}
+
+/*Footer links*/
+
+footer .about{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .about ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+footer .about a{
+    color: #00000099;
+    text-decoration: none;
+}
+
+footer .about a:hover{
+    text-decoration: underline;
+}
+
+footer .bottom_footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+    border-top: 1px solid #44484B80;
+}
+
+footer .bottom_footer ul li a{
+    text-decoration: none;
+    color: #00000099;
+    font-size: 0.7em;
+}
+
+footer .bottom_footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .bottom_footer ul li{
+    padding: 20px;
+}
