@@ -47,7 +47,7 @@ header a img.logo{
     margin-top: 29px;
 }
 
-header .buy{
+header .purchase{
     background-color: #0070C9;
     border-radius: 10px;
     height: 30px;
@@ -152,6 +152,26 @@ main .homePod_citation p{
     margin:0 auto;
     height: 70vh;
     overflow: hidden;
+}
+
+.slider .navigation .previous{
+    position: absolute;
+    top: 50%;
+}
+
+.slider .navigation .next{
+    position: absolute;
+    top: 50%;
+    right : 10px;
+}
+
+.slider .navigation .next img{
+    width: 30px;
+}
+
+.slider .navigation .previous img{
+    width: 30px;
+    transform: rotate(180deg);
 }
 
 .sliderContainer{

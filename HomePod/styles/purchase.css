@@ -35,7 +35,6 @@ header nav{
     text-transform: bold;
 }
 
-
 /*Header*/
 
 header{
@@ -77,136 +76,13 @@ header nav #nav_logo ul li{
 }
 
 header nav #nav_logo ul li a{
-    color: #FFFFFF99;
-}
-
-/*fin nav*/
-
-/* Presentation HomePod for Techs */
-
-.container_fond_pour_homepod{
-  background-color:#44484B;
-  height: 120vh;
-}
-
-.presentation_homepod_tech{
-    background-color: #44484B;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-.presentation_homepod_tech img{
-    margin-top: 100px;
-    height: 120vh;
-}
-
-.presentation_homepod_tech img.homepod_black{
-    margin-left: -20vw;
-}
-
-.presentation_homepod_tech img.homepod_white{
-    margin-right: -20vw;
-}
-
-/*Description HomePod*/
-
-.container{
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-main .technics_description li{
-    position: relative;
-    margin-top: 50px;
-}
-
-h3.technics::after{
-    content: ">";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 40%;
-    transition: all linear 0.25s;
-    transform: rotate(0deg);
-}
-
-main .technics_description{
-    list-style: none;
-}
-
-main .technics_description p.description{
-    display: none;
-}
-
-main h3.technics{
-    font-size: 1.8em;
-}
-
-main .technics_description li.isOpen p.description{
-    display: block;
-}
-
-main .technics_description li.isOpen h3::after{
-    transform: rotate(90deg);
-}
-
-
-/*Environment engagement*/
-
-.homePod_environnement{
-    background-color: #F6F6EF94;
-    width: 80vw;
-    margin: 0 auto;
-}
-
-.homePod_environnement div#title_environment{
-    text-align: center;
-}
-
-.homePod_environnement div#title_environment h2{
-    color: #548C8C;
-    padding-top: 2%;
-}
-
-.homePod_environnement #homePod_environnement_firstp{
-    margin-left: 3%;
-    width: 48%;
-}
-.homePod_environnement a{
-    margin-left: 5%;
-    text-decoration: none;
-    color: #0070C9;
-}
-
-.container_envrionment{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2%;
-}
-
-.container_envrionment .info_homepod_environment{
-    margin-left: 3%;
-}
-
-.container_envrionment .info_homepod_environment ul{
-    list-style: none;
-}
-
-.container_envrionment .info_homepod_environment h2{
-    font-size: 1em;
-}
-
-.container_envrionment .info_homepod_environment2{
-    margin-right: 3%;
-    margin-left: 3%;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 /*Footer*/
 
 footer{
     background-color: #44484B33;
-    margin-top: 50px;
 }
 
 footer .icoFooter{
