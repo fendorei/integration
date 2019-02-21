@@ -297,6 +297,52 @@ main .video video{
     margin-right: 10vw;
 }
 
+/*Machine learning*/
+.content_machinelearning{
+    background-color: #000000;
+    height: 190vh;
+}
+
+.content_machinelearning .info_machineLearning{
+    text-align: center;
+}
+
+.content_machinelearning h2{
+    color: #FFFFFF;
+    font-size: 3em;
+    line-height: 0.5em;
+}
+
+.content_machinelearning h2#machineLearning_h2{
+    padding-top: 50px;
+}
+
+.content_machinelearning p{
+    color: #D1D1D1;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    width: 60vw;
+    margin:0 auto;
+}
+
+.video_machineLearning video{
+    margin-top: 30px;
+    width: 100vw;
+}
+
+.music_learning{
+    text-align: center;
+}
+
+.homepod_music{
+    height: 50vh;
+}
+
+.homepod_music img{
+    width: 30vw;
+}
+
+
 /*4th part*/
 
 main .fourthContent{
