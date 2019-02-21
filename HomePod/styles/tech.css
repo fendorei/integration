@@ -121,14 +121,11 @@ main .technics_description li{
     margin-top: 50px;
 }
 
-h3.technics::after{
-    content: ">";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 40%;
+li.isOpen h3.technics .arrow{
     transition: all linear 0.25s;
     transform: rotate(0deg);
+    position: absolute;
+    margin-left: 20px;
 }
 
 main .technics_description{
@@ -161,7 +158,7 @@ main .technics_description li.isOpen p.description{
     display: block;
 }
 
-main .technics_description li.isOpen h3::after{
+main .technics_description li.isOpen h3.technics .arrow{
     transform: rotate(90deg);
 }
 
