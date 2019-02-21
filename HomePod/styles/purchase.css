@@ -108,7 +108,8 @@ main .presentation_homepod_purchase .purchase_infos h2{
 }
 
 main .presentation_homepod_purchase .purchase_infos h2#first_h2{
-    margin-top: 100px;
+    margin-top: 75px;
+    text-align: center;
 }
 
 main .presentation_homepod_purchase .purchase_infos h2#scnd_h2{
@@ -117,6 +118,151 @@ main .presentation_homepod_purchase .purchase_infos h2#scnd_h2{
 
 main .presentation_homepod_purchase .purchase_infos p{
     color: #FFFFFFB3;
+    text-align: center;
+}
+
+/*Selection color*/
+
+main .presentation_homepod_purchase .selection_purchase{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .presentation_homepod_purchase .selection_purchase .choose_color{
+    width: 200px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+main .presentation_homepod_purchase .selection_purchase .choose_color img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+main .presentation_homepod_purchase .selection_purchase .choose_color h2{
+    margin: 10px;
+}
+
+main .presentation_homepod_purchase .selection_purchase .choose_color.isSelect{
+    border: 2px solid #0070C9;
+    box-shadow: 1px 1px 10px #0070C9;
+}
+
+/*Slider*/
+
+.slider{
+    position : relative;
+    width: 960px;
+    height: 400px;
+    overflow: hidden;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.sliderContainer{
+    position: absolute;
+    display: flex;
+    transition: ease-in 0.5s all;
+    will-change: left;
+}
+
+.sliderContainer img{
+    margin: 0 auto;
+    height: 400px;
+}
+
+.previous{
+    position: absolute;
+    top: 50%;
+    left : 20px;
+    transform: rotate(180deg);
+}
+
+.previous img{
+    width: 30px;
+}
+
+.next{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+.next img{
+    width: 30px;
+}
+
+/*Decription HomePod*/
+
+.description_homepod h2#technics{
+    text-align: center;
+}
+
+.description_homepod h2#technics{
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.technical_aspect{
+    display: flex;
+}
+
+.technical_aspect .technical_aspect_images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8vw;
+}
+
+.technical_aspect .technical_aspect_images img{
+    height: 300px;
+    width: 247px;
+}
+
+.technical_aspect .left_right_techs{
+    display: flex;
+}
+
+.technical_aspect .left_techs{
+    margin-left: 10vw;
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+.technical_aspect .left_techs ul{
+    list-style: none;
+    padding: 0;
+}
+
+.technical_aspect .left_techs ul li{
+    margin-top: 10px;
+}
+
+.technical_aspect .right_techs{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 20vw;
+}
+
+.technical_aspect .right_techs ul{
+    list-style: none;
+    padding: 0;
+}
+
+.technical_aspect .right_techs ul li{
+    margin-top: 10px;
+    line-height: 1.4em;
+}
+
+.technical_aspect .right_techs p{
+    line-height: 1.4em;
 }
 
 /*Footer*/
