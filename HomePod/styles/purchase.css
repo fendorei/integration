@@ -79,6 +79,46 @@ header nav #nav_logo ul li a{
     color: rgba(255, 255, 255, 0.76);
 }
 
+/*Main*/
+/*Presentation*/
+
+main .presentation_homepod_purchase{
+    background-color: #44484B;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .presentation_homepod_purchase .images_homepod{
+    margin-left: 10vw;
+    padding-top: 100px;
+}
+
+main .presentation_homepod_purchase .images_homepod img{
+    height: 500px;
+}
+
+main .presentation_homepod_purchase .purchase_infos{
+    margin-top: 100px;
+    margin-right: 10vw;
+}
+
+main .presentation_homepod_purchase .purchase_infos h2{
+    color: #FFFFFF;
+}
+
+main .presentation_homepod_purchase .purchase_infos h2#first_h2{
+    margin-top: 100px;
+}
+
+main .presentation_homepod_purchase .purchase_infos h2#scnd_h2{
+    text-align: center;
+}
+
+main .presentation_homepod_purchase .purchase_infos p{
+    color: #FFFFFFB3;
+}
+
 /*Footer*/
 
 footer{
