@@ -159,10 +159,16 @@ main h3.technics{
 
 main .technics_description li.isOpen p.description{
     display: block;
+    line-height: 2em;
 }
 
 main .technics_description li.isOpen h3.technics .arrow{
     transform: rotate(90deg);
+}
+
+div.description{
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -184,12 +190,17 @@ main .technics_description li.isOpen h3.technics .arrow{
     padding-top: 2%;
 }
 
-.homePod_environnement #homePod_environnement_firstp{
-    margin-left: 3%;
-    width: 48%;
+.homePod_environnement div#title_environment img{
+    width: 70px;
 }
-.homePod_environnement a{
-    margin-left: 5%;
+
+.homePod_environnement div#title_environment #homePod_environnement_firstp{
+    width: 50%;
+    margin:0 auto;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+.homePod_environnement div#title_environment a{
     text-decoration: none;
     color: #0070C9;
 }
@@ -198,6 +209,7 @@ main .technics_description li.isOpen h3.technics .arrow{
     display: flex;
     justify-content: space-between;
     padding-bottom: 2%;
+    margin-top: 2%;
 }
 
 .container_envrionment .info_homepod_environment{
