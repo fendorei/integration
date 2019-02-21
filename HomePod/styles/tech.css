@@ -121,6 +121,10 @@ main .technics_description li{
     margin-top: 50px;
 }
 
+li.isOpen h3.technics{
+    border-bottom: 1px solid #000000;
+}
+
 li.isOpen h3.technics .arrow{
     transition: all linear 0.25s;
     transform: rotate(0deg);
@@ -138,7 +142,6 @@ main .technics_description p.description{
 
 main .technics_description .p_technics{
     margin-left: 20vw;
-    
 }
 
 main .technics_description .p_technics p.description{
