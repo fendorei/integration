@@ -17,28 +17,43 @@ for (let i=0; i<color.length; i++){
         }
     )
 }
+
+const slider = document.querySelector('.sliderContainer')
+const sliderImages = document.querySelectorAll('.slider img')
 const previous = document.querySelector('.previous')
 const next = document.querySelector('.next')
-const sliderImages = document.querySelectorAll('.sliderContainer img')
-const sliderContainer = document.querySelector('.sliderContainer')
-let step = -960,
-    time = 3000,
-    pos = 0
+const sliderContainer = document.querySelector('.contentSlider')
+const step = -960
+let pos = 0
+let action
 
-let slide = setInterval(
-    function(){
-        pos = (pos+1)%sliderImages.length
-        sliderContainer.style.left = pos*step+'px'
-    },
-    time
-)
+function locationSlide() {
+    pos = (pos + 1) % sliderImages.length
+    setPosition(pos)
+}
 
-sliderContainer.addEventListener('mouseover', function (){
-    clearInterval(slide)
-})
-sliderContainer.addEventListener('mouseout', function(){
-    setInterval()
-})
+playSlider()
+
+slider.addEventListener('mouseover', stopSlider)
+slider.addEventListener('mouseout', playSlider)
+
+function setPosition(pos) {
+    slider.style.left = pos * step + 'px'
+}
+
+function stopSlider() {
+    clearInterval(action)
+}
+
+function playSlider() {
+    action = setInterval(
+        function() {
+            pos = (pos + 1) % sliderImages.length
+            setPosition(pos)
+        },
+        3000
+    )
+}
 
 previous.addEventListener(
     'click',
@@ -47,7 +62,7 @@ previous.addEventListener(
         if (pos < 0){
             pos = sliderImages.length-1
         }
-        sliderContainer.style.left = pos*step + 'px'
+        setPosition(pos)
     }
 )
 
@@ -55,12 +70,15 @@ next.addEventListener(
     'click',
     function(){
         pos++
+        console.log('dgndghd')
+
         if (pos > sliderImages.length-1){
             pos = 0
         }
-        sliderContainer.style.left = pos*step + 'px'
+        setPosition(pos)
     }
 )
+
 const previousHomeKit = document.querySelector('.previousHomeKit')
 const nextHomeKit = document.querySelector('.nextHomeKit')
 const sliderImagesHomeKit = document.querySelectorAll('.sliderContainer_homekit img')
